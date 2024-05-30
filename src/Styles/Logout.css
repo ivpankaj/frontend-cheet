@@ -1,0 +1,23 @@
+.logout button{
+    background-color: black;
+    color: white;
+    font-size: 150%;
+    padding: 2%;
+    border-radius: 15px;
+
+}
+
+.pre-fo{
+    display: flex;
+    justify-content: center;
+}
+.logout button:hover{
+    background-color: white;
+    color: black;
+}
+.logout {
+    display: flex;
+    margin-top: 2%;
+    gap: 2%;
+    justify-content: center;
+}

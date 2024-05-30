@@ -1,0 +1,76 @@
+.p-head2 {
+  border: 2px solid white;
+  background-color: rgb(94, 94, 85);
+  color: white;
+  border-radius: 15px;
+  padding: 2%;
+ 
+ display: flex;
+  font-size: 150%;
+}
+.p-butt {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+.profile{
+    background-color: rgb(247, 241, 241);
+    width: 100%;
+   
+   
+}
+.p-headd1{
+    margin-left: 0;
+}
+.p-butt button {
+  background-color: rgb(58, 55, 55);
+  border-radius: 15px;
+  padding: 2%;
+  color: white;
+  width: 20%;
+  margin-top: 3%;
+}
+.p-butt button:hover{
+    background-color: black;
+}
+.p-head-avatar{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.p-head-avatar img{
+   border:none;
+background-color: white;
+display: flex;
+border-radius: 15px;
+margin-left: -15%;
+justify-content: start;
+   
+}
+.p-butt2{
+   display: flex;
+   justify-content: end;
+   background-color: rgb(247, 241, 241);
+}
+.p-butt2 button{
+margin-top: 5%;
+ border: none;
+ width: 100%;
+ background-color: rgb(247, 241, 241);
+}
+@media only screen and (max-width: 500px) {
+  .p-butt button {
+    padding: 4%;
+    font-size: 100%;
+    width: 30%;
+  }
+ .p-head2{
+  width: 100%;
+ }
+  .p-head-avatar{
+    width: 40%;
+  }
+  .profile{
+    width: 100%;
+  }
+}

@@ -1,0 +1,37 @@
+.video-show-button {
+  margin-top: 1%;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow-x: scroll;
+  gap: 5%;
+  background-color: rgb(247, 241, 241);
+}
+
+.video-show-button button {
+  background-color: black;
+  color: white;
+  height: 90%;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+.video-show-button button:hover{
+  background-color: white;
+color: black;
+}
+@media only screen and (max-width: 600px) {
+  .video-show-button button {
+    width: 20%;
+  }
+  .video-show-button {
+    height: 55px;
+    padding: 3%;
+    justify-content: start;
+  }
+}

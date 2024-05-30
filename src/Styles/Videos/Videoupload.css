@@ -1,0 +1,71 @@
+.video-upload {
+  background-color: rgb(112, 100, 100);
+  border: 2px solid black;
+  border-radius: 15px;
+  color: white;
+  width: 40%;
+  margin-top: 2%;
+  padding: 2%;
+}
+.video-upload button {
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  padding: 2%;
+}
+.v-up{
+  display: flex;
+  background-color: rgb(247, 241, 241);
+  justify-content: center;
+}
+.video-upload button:hover{
+  background-color: white;
+  color: black;
+}
+.video-upload-caption {
+  display: flex;
+}
+.video-upload-caption input {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 100%;
+ 
+}
+
+.v-u-m3 {
+  padding: 2%;
+  display: flex;
+  gap: 5%;
+  width: 95%;
+}
+
+
+.v-u-m3 input{
+border-radius: 15px;
+border: 2px solid black;
+height: 10%;
+
+}
+
+.custom-file-upload {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    padding: 2%; /* Green text */
+    border: 2px solid black;
+    margin-left: -2%;
+}
+
+.custom-file-upload:hover {
+  background-color: black; /* Green background on hover */
+  color: white; /* White text on hover */
+}
+
+@media only screen and (max-width: 750px) {
+  .video-upload {
+    width: 90%;
+    margin-left: 3%;
+  }
+}

@@ -1,0 +1,68 @@
+.welcome{
+  background-color: rgb(247, 241, 241);
+}
+.card {
+  margin-top: 2%;
+  border: 2px solid black;
+  width: 30%;
+  background-color: white;
+  border-radius: 15px;
+  padding: 2%;
+  margin-left: 25%;
+}
+.picture {
+  width: 100%;
+}
+.avatar{
+ margin-left: 0;
+   
+}
+.name-card{
+    margin-left: 2%;
+}
+.card-content {
+  overflow: auto;
+  height: 100%;
+  word-wrap: break-word;
+  width: 100%;
+}
+
+.card-footer {
+  margin-top: 7%;
+  display: flex;
+  gap: 10%;
+}
+.card-footer pre {
+  font-size: 50%;
+  margin-bottom: -5%;
+}
+.card-footer button {
+  border: none;
+  outline: none;
+  font-size: 150%;
+  background-color: white;
+}
+.seewho {
+  border: none;
+  outline: none;
+  background-color: white;
+}
+.f-but {
+  margin-left: 10%;
+  background-color: white;
+  border: none;
+  outline: none;
+}
+.card-header {
+  display: flex;
+  gap: 0;
+}
+@media only screen and (max-width: 918px) {
+  .card {
+    width: 90%;
+    margin-left: 4%;
+  }
+  .f-but {
+    margin-left: 30%;
+  }
+}

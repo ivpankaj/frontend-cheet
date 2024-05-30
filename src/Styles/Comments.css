@@ -1,0 +1,8 @@
+.comment-box{
+    border: 2px solid black;
+    margin-left: -2%;
+    background-color: rgb(247, 241, 241);
+    border-radius: 15px;
+    padding: 1%;
+    margin-top: 1%;
+}

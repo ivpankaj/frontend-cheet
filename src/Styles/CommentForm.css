@@ -1,0 +1,23 @@
+.comment{
+    
+    display: flex;
+}
+.comment textarea{
+ border: 2px solid black;
+ border-radius: 15px;
+ margin-top: 2%;
+ width: 85%;
+ padding: 1%;
+}
+.comment button{
+    border: 2px solid white;
+   
+    border-radius: 15px;
+    margin-left: 2%;
+   width: 10%;
+    margin-top: 2%;
+}
+.comment button:hover{
+    background-color: black;
+    color: white;
+}

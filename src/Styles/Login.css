@@ -1,0 +1,50 @@
+.login {
+  height: 110vh;
+  width: 100wh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(247, 241, 241);
+}
+.form {
+  height: 55%;
+  width: 30%;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: white;
+    padding: 1%;
+}
+.form img{
+    border-radius: 15px;
+    margin-top: 2%;
+}
+.form input{
+    width: 80%;
+    padding: 1%;
+ 
+    border: 2px solid black;
+    
+}
+
+.form button{
+    background-color: white;
+    padding: 2%;
+    width: 50%;
+}
+.form button:hover{
+    background-color: black;
+    color: white;
+}
+.signup{
+    display: grid;
+    margin-top: 5%;
+    gap: 5%;
+}
+
+@media only screen and (max-width:750px){
+    .form{
+        width: 80%;
+        padding-left: 10%;
+    }
+}

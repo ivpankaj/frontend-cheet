@@ -1,0 +1,77 @@
+.post {
+  height: 5%;
+  margin-top: 1%;
+  width: 70%;
+  padding: 2%;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 15px;
+  display: flex;
+  margin-left: 7%;
+
+  overflow: hidden;
+}
+.post pre {
+  color: white;
+}
+.post form {
+  display: flex;
+  width: 100%;
+}
+.post textarea {
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: rgb(102, 98, 98);
+  width: 80%;
+  color: white;
+  padding: 1%;
+  
+  margin-left: 5%;
+}
+
+.file-t {
+  margin-left: 3%;
+  margin-top: 2%;
+ border: 2px solid black;
+  border-radius: 15px;
+  height: 24%;
+}
+
+.post button {
+  margin-left: 1%;
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+  height: 100%;
+  width: 10%;
+  border: 2px solid white;
+}
+.post button:hover {
+  background-color: black;
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+    .post{
+        width: 90%;
+        margin-left: 4%;
+        padding: 3%;
+    }
+    .post form{
+        display: grid;
+    }
+    .post textarea{
+        width: 90%;
+        padding: 2%;
+        margin-left: 2%;
+    }
+    .post button{
+        margin-top: -8%;
+        height: 40px;
+        width: 80px;
+    }
+    .file-t{
+       border: 2px solid black;
+        height: 22px;
+    }
+  
+}
